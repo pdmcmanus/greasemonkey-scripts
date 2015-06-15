@@ -22,11 +22,11 @@ $(document).ready(function() {
 	var keywords = [ ];
 
 	for(var i = 0; i < keywords.length; i++) {
-		var barbaba = keywords[i];
-		$("td:contains("+barbaba+")").parents('tr').hide();
-		$("td:contains("+barbaba+")").parents('tr').css({ "background-color": "#ffc17f",
+		var titleSearch = keywords[i];
+		$("td:contains("+titleSearch+")").parents('tr').hide();
+		$("td:contains("+titleSearch+")").parents('tr').css({ "background-color": "#ffc17f",
 															"padding": "0"});
-		$("td:contains("+barbaba+")").parents('tr').addClass( "hiddenJob" );
+		$("td:contains("+titleSearch+")").parents('tr').addClass( "hiddenJob" );
 	}
     
 	$('.JSresults').parent().prepend(
