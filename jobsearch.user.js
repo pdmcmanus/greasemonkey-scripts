@@ -19,15 +19,7 @@ $(document).ready(function() {
 	/* Enter keywords to block from job titles here, seperated by commas
 	/*  eg: var keywords = ['nurse', 'doctor', 'barrister']; */
 	
-	var keywords = ['apprentice', 'nurse', 
-									'army', 'RAF',
-                  'CSCS', 'Class 1',
-                  'HGV', 'FLT', 
-                  '360', 'telesales', 
-                  'cleaner', 'telehandler',
-                  'welder', 'care worker',
-									'care assistant', 'carer', 
-									'healthcare assistant', 'teacher'];
+	var keywords = [ ];
 
 	for(var i = 0; i < keywords.length; i++) {
 		var barbaba = keywords[i];
