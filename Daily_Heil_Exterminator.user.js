@@ -8,9 +8,7 @@
 // @grant       none
 // ==/UserScript==
 $(document).ready(function() {
-  $('a[href*="dailymail"]').attr('href', "").append('<sup>*</sup>');
-  if ($('a[href*="dailymail"]')) {
-      $('.post-content').append("*[For the good of humanity the link to the source \
-                                of this story has been removed]");
-  }
+    $('a[href*="dailymail"]').parents('.post-content').append("*[For the good of humanity the \
+                                     link to the source of this story has been removed]");
+    $('a[href*="dailymail"]').attr('href', "").append('<sup>*</sup>');
 });
